@@ -1,5 +1,5 @@
-import { API } from "./api";
-
+const API=import.meta.env.VITE_API;
+const pass=import.meta.env.VITE_PASS;
 //function to register user
 export async function registerUser(data){
    try {
@@ -24,7 +24,8 @@ export async function loginUser(data){
         method:"POST",
         body:JSON.stringify(data),
         headers:{
-            "Content-type":"application/json"
+            "Content-type":"application/json",
+            "pass-token":pass
         }
       })
       const result=await res.json();
