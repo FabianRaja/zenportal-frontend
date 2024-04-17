@@ -12,7 +12,7 @@ export default function HomePage(){
             setCurrentData(classData?.message[0]);
         }
     },[])
-    
+    console.log(classData)
     return(
         //homepage component as children for Mainspace component
         <MainSpace>
@@ -48,62 +48,62 @@ export default function HomePage(){
             <h1 className="text-xl text-center">Session Roadmap</h1>
             <hr/>
             <ul className="steps steps-section">
-            <li className="step step-primary" data-content="1" onClick={()=>setCurrentData(classData.message[0])}></li>
-            <li className="step step-primary" data-content="2" onClick={()=>setCurrentData(classData.message[1])}></li>
-            <li className="step step-primary" data-content="3" onClick={()=>setCurrentData(classData.message[2])}></li>
-            <li className="step step-primary" data-content="4" onClick={()=>setCurrentData(classData.message[3])}></li>
-            <li className="step step-primary" data-content="5" onClick={()=>setCurrentData(classData.message[4])}></li>
-            <li className="step step-primary" data-content="6" onClick={()=>setCurrentData(classData.message[5])}></li>
+            <li className="step step-primary" data-content="1" onClick={()=>setCurrentData(classData.message[30])}></li>
+            <li className="step step-primary" data-content="2" onClick={()=>setCurrentData(classData.message[17])}></li>
+            <li className="step step-primary" data-content="3" onClick={()=>setCurrentData(classData.message[31])}></li>
+            <li className="step step-primary" data-content="4" onClick={()=>setCurrentData(classData.message[32])}></li>
+            <li className="step step-primary" data-content="5" onClick={()=>setCurrentData(classData.message[18])}></li>
+            <li className="step step-primary" data-content="6" onClick={()=>setCurrentData(classData.message[19])}></li>
             </ul>
             <ul className="steps steps-section">
-            <li className="step step-primary" data-content="12" onClick={()=>setCurrentData(classData.message[11])}></li>
-            <li className="step step-primary" data-content="11" onClick={()=>setCurrentData(classData.message[10])}></li>
-            <li className="step step-primary" data-content="10" onClick={()=>setCurrentData(classData.message[9])}></li>
-            <li className="step step-primary" data-content="9" onClick={()=>setCurrentData(classData.message[8])}></li>
-            <li className="step step-primary" data-content="8" onClick={()=>setCurrentData(classData.message[7])}></li>
-            <li className="step step-primary" data-content="7" onClick={()=>setCurrentData(classData.message[6])}></li>
+            <li className="step step-primary" data-content="12" onClick={()=>setCurrentData(classData.message[9])}></li>
+            <li className="step step-primary" data-content="11" onClick={()=>setCurrentData(classData.message[2])}></li>
+            <li className="step step-primary" data-content="10" onClick={()=>setCurrentData(classData.message[1])}></li>
+            <li className="step step-primary" data-content="9" onClick={()=>setCurrentData(classData.message[21])}></li>
+            <li className="step step-primary" data-content="8" onClick={()=>setCurrentData(classData.message[20])}></li>
+            <li className="step step-primary" data-content="7" onClick={()=>setCurrentData(classData.message[0])}></li>
             
             </ul>
             <ul className="steps steps-section">
-            <li className="step step-primary" data-content="13" onClick={()=>setCurrentData(classData.message[12])}></li>
-            <li className="step step-primary" data-content="14" onClick={()=>setCurrentData(classData.message[13])}></li>
-            <li className="step step-primary" data-content="15" onClick={()=>setCurrentData(classData.message[14])}></li>
-            <li className="step step-primary" data-content="16" onClick={()=>setCurrentData(classData.message[15])}></li>
-            <li className="step step-primary" data-content="17" onClick={()=>setCurrentData(classData.message[16])}></li>
-            <li className="step step-primary" data-content="18" onClick={()=>setCurrentData(classData.message[17])}></li>
+            <li className="step step-primary" data-content="13" onClick={()=>setCurrentData(classData.message[33])}></li>
+            <li className="step step-primary" data-content="14" onClick={()=>setCurrentData(classData.message[34])}></li>
+            <li className="step step-primary" data-content="15" onClick={()=>setCurrentData(classData.message[22])}></li>
+            <li className="step step-primary" data-content="16" onClick={()=>setCurrentData(classData.message[3])}></li>
+            <li className="step step-primary" data-content="17" onClick={()=>setCurrentData(classData.message[23])}></li>
+            <li className="step step-primary" data-content="18" onClick={()=>setCurrentData(classData.message[24])}></li>
             </ul>
             <ul className="steps steps-section">
-            <li className="step step-primary" data-content="24" onClick={()=>setCurrentData(classData.message[23])}></li>
-            <li className="step step-primary" data-content="23" onClick={()=>setCurrentData(classData.message[22])}></li>
-            <li className="step step-primary" data-content="22" onClick={()=>setCurrentData(classData.message[21])}></li>
-            <li className="step step-primary" data-content="21" onClick={()=>setCurrentData(classData.message[20])}></li>
-            <li className="step step-primary" data-content="20" onClick={()=>setCurrentData(classData.message[19])}></li>
-            <li className="step step-primary" data-content="19" onClick={()=>setCurrentData(classData.message[18])}></li>
+            <li className="step step-primary" data-content="24" onClick={()=>setCurrentData(classData.message[11])}></li>
+            <li className="step step-primary" data-content="23" onClick={()=>setCurrentData(classData.message[4])}></li>
+            <li className="step step-primary" data-content="22" onClick={()=>setCurrentData(classData.message[36])}></li>
+            <li className="step step-primary" data-content="21" onClick={()=>setCurrentData(classData.message[10])}></li>
+            <li className="step step-primary" data-content="20" onClick={()=>setCurrentData(classData.message[25])}></li>
+            <li className="step step-primary" data-content="19" onClick={()=>setCurrentData(classData.message[35])}></li>
             
             </ul>
             <ul className="steps steps-section">
-            <li className="step step-primary" data-content="25" onClick={()=>setCurrentData(classData.message[24])}></li>
-            <li className="step step-primary" data-content="26" onClick={()=>setCurrentData(classData.message[25])}></li>
+            <li className="step step-primary" data-content="25" onClick={()=>setCurrentData(classData.message[5])}></li>
+            <li className="step step-primary" data-content="26" onClick={()=>setCurrentData(classData.message[6])}></li>
             <li className="step step-primary" data-content="27" onClick={()=>setCurrentData(classData.message[26])}></li>
-            <li className="step step-primary" data-content="28" onClick={()=>setCurrentData(classData.message[27])}></li>
-            <li className="step step-primary" data-content="29" onClick={()=>setCurrentData(classData.message[28])}></li>
-            <li className="step step-primary" data-content="30" onClick={()=>setCurrentData(classData.message[29])}></li>
+            <li className="step step-primary" data-content="28" onClick={()=>setCurrentData(classData.message[12])}></li>
+            <li className="step step-primary" data-content="29" onClick={()=>setCurrentData(classData.message[13])}></li>
+            <li className="step step-primary" data-content="30" onClick={()=>setCurrentData(classData.message[37])}></li>
             </ul>
             <ul className="steps steps-section">
-            <li className="step step-primary" data-content="36" onClick={()=>setCurrentData(classData.message[35])}></li>
-            <li className="step step-primary" data-content="35" onClick={()=>setCurrentData(classData.message[34])}></li>
-            <li className="step step-primary" data-content="34" onClick={()=>setCurrentData(classData.message[33])}></li>
-            <li className="step step-primary" data-content="33" onClick={()=>setCurrentData(classData.message[32])}></li>
-            <li className="step step-primary" data-content="32" onClick={()=>setCurrentData(classData.message[31])}></li>
-            <li className="step step-primary" data-content="31" onClick={()=>setCurrentData(classData.message[30])}></li>
+            <li className="step step-primary" data-content="36" onClick={()=>setCurrentData(classData.message[27])}></li>
+            <li className="step step-primary" data-content="35" onClick={()=>setCurrentData(classData.message[14])}></li>
+            <li className="step step-primary" data-content="34" onClick={()=>setCurrentData(classData.message[40])}></li>
+            <li className="step step-primary" data-content="33" onClick={()=>setCurrentData(classData.message[39])}></li>
+            <li className="step step-primary" data-content="32" onClick={()=>setCurrentData(classData.message[38])}></li>
+            <li className="step step-primary" data-content="31" onClick={()=>setCurrentData(classData.message[7])}></li>
             </ul>
             <ul className="steps steps-section">
-            <li className="step step-primary" data-content="37" onClick={()=>setCurrentData(classData.message[36])}></li>
-            <li className="step step-primary" data-content="38" onClick={()=>setCurrentData(classData.message[37])}></li>
-            <li className="step step-primary" data-content="39" onClick={()=>setCurrentData(classData.message[38])}></li>
-            <li className="step step-primary" data-content="40" onClick={()=>setCurrentData(classData.message[39])}></li>
-            <li className="step step-primary" data-content="41" onClick={()=>setCurrentData(classData.message[40])} ></li>
-            <li className="step step-primary" data-content="42" onClick={()=>setCurrentData(classData.message[41])}></li>
+            <li className="step step-primary" data-content="37" onClick={()=>setCurrentData(classData.message[8])}></li>
+            <li className="step step-primary" data-content="38" onClick={()=>setCurrentData(classData.message[28])}></li>
+            <li className="step step-primary" data-content="39" onClick={()=>setCurrentData(classData.message[15])}></li>
+            <li className="step step-primary" data-content="40" onClick={()=>setCurrentData(classData.message[16])}></li>
+            <li className="step step-primary" data-content="41" onClick={()=>setCurrentData(classData.message[41])} ></li>
+            <li className="step step-primary" data-content="42" onClick={()=>setCurrentData(classData.message[29])}></li>
             </ul>
             
             </div>
